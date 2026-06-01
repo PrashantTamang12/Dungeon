@@ -122,6 +122,18 @@ Then restart Unreal Engine.
 
 ---
 
+## 📸 Screenshots
+
+To be added!
+
+---
+
+## 🎮 Gameplay Demo
+
+To be added!
+
+---
+
 ## 📌 Notes
 
 * Intended for **learning and portfolio use**
