@@ -29,6 +29,7 @@ If you encounter errors such as:
 * Character falling through the floor
 
 ➡️ These issues occur because the required asset pack is **missing**.
+➡️ You can check Installation.md (https://github.com/PrashantTamang12/Dungeon/edit/main/README.md) for convenience.
 
 ---
 
@@ -39,53 +40,18 @@ If you encounter errors such as:
 
 ---
 
-## 🛠️ Installation Steps
-
-1. Download the **Medieval Dungeon** asset pack from the Marketplace
-2. Install it via:
-
-   * Epic Games Launcher **or**
-   * Fab application
-3. Place the asset in the following directory:
-
-```
-ProjectRoot/Content/MedievalDungeon/
-```
-
-4. Verify the folder contains:
-
-   * `Blueprints/`
-   * `Meshes/`
-   * `Materials/`
-
-5. Restart the Unreal Engine Editor
-
----
-
-## ❗ Common Errors & Fixes
-
-| Error / Symptom               | Cause                             | Solution                      |
-| ----------------------------- | --------------------------------- | ----------------------------- |
-| Failed to load Outer          | Missing dependencies              | Install asset pack            |
-| Skipped package (BP_Candle)   | Missing blueprint references      | Install asset pack            |
-| Skipped package (SM_Floor)    | Missing mesh                      | Install asset pack            |
-| Character falls through floor | No collision (missing floor mesh) | Install asset pack            |
-| Blueprint compile errors      | Broken asset references           | Install pack & restart editor |
-
----
-
 ## 📂 Project Structure
 
 ```
 MyProject/
 │── Content/
-│   ├── MedievalDungeon/    <-- REQUIRED ASSET (Install here)
+│   ├── MedievalDungeon/   
 │   │   ├── Blueprints/
 │   │   ├── Materials/
 │   │   ├── Meshes/
 │   │   └── ...
 │   │
-│   ├── MyStuff/            <-- Custom project content
+│   ├── MyStuff/            
 │   │   ├── Blueprints/
 │   │   ├── Maps/
 │   │   └── ...
@@ -94,22 +60,6 @@ MyProject/
 ├── Source/
 └── ...
 ```
-
----
-
-## 🧹 Troubleshooting (Cache Reset)
-
-If the project still fails after installing assets, clear Unreal cache files:
-
-### PowerShell
-
-```powershell
-Remove-Item -Recurse -Force DerivedDataCache
-Remove-Item -Recurse -Force Intermediate
-Remove-Item -Recurse -Force Saved
-```
-
-Then restart Unreal Engine.
 
 ---
 
