@@ -68,3 +68,19 @@ MyProject/
 ```
 
 ---
+
+## 🧹 Troubleshooting (Cache Reset)
+
+If the project still fails after installing assets, clear Unreal cache files:
+
+### PowerShell
+
+```powershell
+Remove-Item -Recurse -Force DerivedDataCache
+Remove-Item -Recurse -Force Intermediate
+Remove-Item -Recurse -Force Saved
+```
+
+Then restart Unreal Engine.
+
+---
