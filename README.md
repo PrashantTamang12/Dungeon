@@ -29,6 +29,7 @@ If you encounter errors such as:
 * Character falling through the floor
 
 ➡️ These issues occur because the required asset pack is **missing**.
+
 ➡️ You can check Installation.md (https://github.com/PrashantTamang12/Dungeon/edit/main/README.md) for convenience.
 
 ---
