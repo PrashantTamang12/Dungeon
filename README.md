@@ -30,7 +30,7 @@ If you encounter errors such as:
 
 ➡️ These issues occur because the required asset pack is **missing**.
 
-ℹ️ To build and run this project locally, please see the Installation Guide for required asset setup. (https://github.com/PrashantTamang12/Dungeon/edit/main/README.md)
+ℹ️ To build and run this project locally, please see the Installation Guide for required asset setup. ([Installation Guide](Installation.md))
 
 ---
 
