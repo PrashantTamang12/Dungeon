@@ -73,6 +73,14 @@ MyProject/
 
 ---
 
+---
+* 💻 **Advanced C++ Backend:** Formulated gameplay mechanics, character controls, and systems programming using native C++.
+* 🔌 **Blueprint-C++ Hybrid Architecture:** Engineered custom C++ base classes designed to pass data smoothly into Unreal Engine 5's Blueprint layer and visual UI widgets.
+* 📂 **Clean Project Architecture:** Maintained explicit separation between third-party environmental assets and custom gameplay code (`MyStuff/`).
+
+---
+
+---
 ## 📸 Screenshots
 
 To be added!
